@@ -1,17 +1,17 @@
 
 import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG2 from '../../assets/quizzical.png'
+import IMG3 from '../../assets/tenzies.png'
+import IMG4 from '../../assets/rocketshoes.png'
+// import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/campo-de-batalha.png'
 
 import './styles.css'
 
 const data = [
     {
         id: 1,
-        image: IMG1,
+        image: IMG2,
         title: 'Quizzical',
         github: 'http://github.com/julio-henrique/quizzical',
         demo: ''
@@ -25,14 +25,14 @@ const data = [
     },
     {
         id: 3,
-        image: IMG1,
+        image: IMG3,
         title: 'Tenzies',
         github: 'http://github.com/julio-henrique/tenzies',
         demo: 'https://julio-henrique-tenzies.netlify.app/'
     },
     {
         id: 4,
-        image: IMG1,
+        image: IMG4,
         title: 'Desafio-02-trilha-reactjs',
         github: 'http://github.com/julio-henrique/desafio-02-trilha-reactjs',
         demo: ''
@@ -46,7 +46,7 @@ const data = [
     },
     {
         id: 6,
-        image: IMG1,
+        image: IMG6,
         title: 'Batalha Naval JS',
         github: 'https://github.com/julio-henrique/batalha-naval-js',
         demo: 'https://julio-henrique.github.io/batalha-naval-js/'
