@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
@@ -17,15 +19,22 @@ const data = [
     },
 ]
 
-export const Portfolio = () => {
+/**
+ * 13: {id: 531202676, node_id: 'R_kgDOH6mCdA', name: 'portfolio-oficial', full_name: 'julio-henrique/portfolio-oficial', private: false, …}
+ * 15: {id: 482846800, node_id: 'R_kgDOHMeoUA', name: 'quizzical', full_name: 'julio-henrique/quizzical', private: false, …}
+ * 17: {id: 422768893, node_id: 'R_kgDOGTLw_Q', name: 'respondeai', full_name: 'julio-henrique/respondeai', private: false, …}
+ * 18: {id: 479164819, node_id: 'R_kgDOHI95kw', name: 'tenzies', full_name: 'julio-henrique/tenzies', private: false, …}
+ * 5: {id: 413453486, node_id: 'R_kgDOGKTMrg', name: 'desafio-02-trilha-reactjs', full_name: 'julio-henrique/desafio-02-trilha-reactjs', private: false, …}
+ * 16: {id: 530234917, node_id: 'R_kgDOH5q-JQ', name: 'react-feed', full_name: 'julio-henrique/react-feed', private: false, …}
+ */
 
-    /**
-     *     useEffect(() =>{
+export const Portfolio = () => {
+    useEffect(() => {
         fetch('https://api.github.com/users/julio-henrique/repos')
             .then(res => res.json())
-            .then(data => setRepositories(data))
+            .then(data => console.log(data))
     }, [])
-    */
+
 
     return (
         <section id='portfolio'>
