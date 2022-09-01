@@ -48,11 +48,10 @@
 
 .service__list p {
     font-size: 0.9rem;
+    max-width: 200px;
 }
 
-.service__list .param {
-    max-width: 130px;
-}
+.service__list .param {}
 
 /* MEDIA QUERIAS (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
@@ -71,5 +70,9 @@
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    .service__list p {
+        max-width: 300px;
     }
 }

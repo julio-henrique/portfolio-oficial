@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
@@ -13,29 +12,41 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Crypto Dashboard',
-        github: 'http://github.com',
-        demo: 'https://dribbble.com/Alien_pixels'
+        title: 'Quizzical',
+        github: 'http://github.com/julio-henrique/quizzical',
+        demo: ''
+    },
+    {
+        id: 2,
+        image: IMG1,
+        title: 'Respondeai',
+        github: 'http://github.com/julio-henrique/respondeai',
+        demo: ''
+    },
+    {
+        id: 3,
+        image: IMG1,
+        title: 'Tenzies',
+        github: 'http://github.com/julio-henrique/tenzies',
+        demo: 'https://julio-henrique-tenzies.netlify.app/'
+    },
+    {
+        id: 4,
+        image: IMG1,
+        title: 'Desafio-02-trilha-reactjs',
+        github: 'http://github.com/julio-henrique/desafio-02-trilha-reactjs',
+        demo: ''
+    },
+    {
+        id: 5,
+        image: IMG1,
+        title: 'React feed',
+        github: 'http://github.com/julio-henrique/react-feed',
+        demo: ''
     },
 ]
 
-/**
- * 13: {id: 531202676, node_id: 'R_kgDOH6mCdA', name: 'portfolio-oficial', full_name: 'julio-henrique/portfolio-oficial', private: false, …}
- * 15: {id: 482846800, node_id: 'R_kgDOHMeoUA', name: 'quizzical', full_name: 'julio-henrique/quizzical', private: false, …}
- * 17: {id: 422768893, node_id: 'R_kgDOGTLw_Q', name: 'respondeai', full_name: 'julio-henrique/respondeai', private: false, …}
- * 18: {id: 479164819, node_id: 'R_kgDOHI95kw', name: 'tenzies', full_name: 'julio-henrique/tenzies', private: false, …}
- * 5: {id: 413453486, node_id: 'R_kgDOGKTMrg', name: 'desafio-02-trilha-reactjs', full_name: 'julio-henrique/desafio-02-trilha-reactjs', private: false, …}
- * 16: {id: 530234917, node_id: 'R_kgDOH5q-JQ', name: 'react-feed', full_name: 'julio-henrique/react-feed', private: false, …}
- */
-
 export const Portfolio = () => {
-    useEffect(() => {
-        fetch('https://api.github.com/users/julio-henrique/repos')
-            .then(res => res.json())
-            .then(data => console.log(data))
-    }, [])
-
-
     return (
         <section id='portfolio'>
             <h5>Meus melhores trabalhos</h5>
