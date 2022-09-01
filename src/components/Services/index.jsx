@@ -14,7 +14,9 @@ export const Services = () => {
                     <ul className="service__list">
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Criação de sites a partir do zero</p>
+                            <div className="param">
+                                <p>Criação de sites a partir do zero</p>
+                            </div>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
@@ -34,15 +36,22 @@ export const Services = () => {
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Integrações com API's de terceiros</p>
+                            <div className="param">
+                                <p>Integrações com API's de terceiros</p>
+                            </div>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Boas práticas de código com Typescript</p>
+                            <div className="param">
+                                <p>Boas práticas de código com Typescript</p>
+                            </div>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Conhecimento de Front-End como um todo</p>
+                            <div className="param">
+                                <p>Conhecimento de Front-End como um todo</p>
+
+                            </div>
                         </li>
                     </ul>
                 </article>
@@ -66,17 +75,25 @@ export const Services = () => {
                             <BiCheck className="service__list-icon" />
                             <p>Desenvolvimento de API's</p>
                         </li>
+                        <div>
+                            <li>
+                                <BiCheck className="service__list-icon" />
+                                <div className="param">
+                                    <p>Conhecimento de ferramentas como Swagger e Postman</p>
+                                </div>
+                            </li>
+                        </div>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Conhecimento de ferramentas como Swagger e Postman</p>
+                            <div className="param">
+                                <p>Integrações com API's de terceiros</p>
+                            </div>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Integrações com API's de terceiros</p>
-                        </li>
-                        <li>
-                            <BiCheck className="service__list-icon" />
-                            <p>Conhecimento da area de Back-End</p>
+                            <div className="param">
+                                <p>Conhecimento da area de Back-End</p>
+                            </div>
                         </li>
                     </ul>
                 </article>
@@ -90,15 +107,21 @@ export const Services = () => {
                     <ul className="service__list">
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Conhecimento sobre Hardware</p>
+                            <div className="param">
+                                <p>Conhecimento sobre Hardware</p>
+                            </div>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Experiência com montagem e manutenção de computadores</p>
+                            <div className="param">
+                                <p>Experiência com montagem e manutenção de computadores</p>
+                            </div>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Algoritmos e Estrutura de Dados</p>
+                            <div className="param">
+                                <p>Algoritmos e Estrutura de Dados</p>
+                            </div>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
@@ -110,7 +133,9 @@ export const Services = () => {
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Fake API's, como o json-server e o MirageJS</p>
+                            <div className="param">
+                                <p>Fake API's, como o json-server e o MirageJS</p>
+                            </div>
                         </li>
                     </ul>
                 </article>
