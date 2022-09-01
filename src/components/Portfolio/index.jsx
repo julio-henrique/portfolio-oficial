@@ -44,6 +44,13 @@ const data = [
         github: 'http://github.com/julio-henrique/react-feed',
         demo: ''
     },
+    {
+        id: 6,
+        image: IMG1,
+        title: 'Batalha Naval JS',
+        github: 'https://github.com/julio-henrique/batalha-naval-js',
+        demo: 'https://julio-henrique.github.io/batalha-naval-js/'
+    },
 ]
 
 export const Portfolio = () => {
