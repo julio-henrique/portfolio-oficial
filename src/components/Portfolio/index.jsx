@@ -15,49 +15,21 @@ const data = [
         github: 'http://github.com',
         demo: 'https://dribbble.com/Alien_pixels'
     },
-    {
-        id: 2,
-        image: IMG2,
-        title: 'Charts templates',
-        github: 'http://github.com',
-        demo: 'https://dribbble.com/Alien_pixels'
-    },
-    {
-        id: 3,
-        image: IMG3,
-        title: 'Figma dashboard UI kit',
-        github: 'http://github.com',
-        demo: 'https://dribbble.com/Alien_pixels'
-    },
-    {
-        id: 4,
-        image: IMG4,
-        title: 'Maintaining tasks',
-        github: 'http://github.com',
-        demo: 'https://dribbble.com/Alien_pixels'
-    },
-    {
-        id: 5,
-        image: IMG5,
-        title: 'Charts templates',
-        github: 'http://github.com',
-        demo: 'https://dribbble.com/Alien_pixels'
-    },
-    {
-        id: 6,
-        image: IMG6,
-        title: 'Infographis in Figma',
-        github: 'http://github.com',
-        demo: 'https://dribbble.com/Alien_pixels'
-    },
 ]
 
 export const Portfolio = () => {
 
+    /**
+     *     useEffect(() =>{
+        fetch('https://api.github.com/users/julio-henrique/repos')
+            .then(res => res.json())
+            .then(data => setRepositories(data))
+    }, [])
+    */
 
     return (
         <section id='portfolio'>
-            <h5>Meus trabalhos recentes</h5>
+            <h5>Meus melhores trabalhos</h5>
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
