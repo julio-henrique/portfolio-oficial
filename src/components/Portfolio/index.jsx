@@ -1,28 +1,13 @@
-
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/quizzical.png'
 import IMG3 from '../../assets/tenzies.png'
-import IMG4 from '../../assets/rocketshoes.png'
+// import IMG4 from '../../assets/.png'
 // import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/campo-de-batalha.png'
 
 import './styles.css'
 
 const data = [
-    {
-        id: 1,
-        image: IMG2,
-        title: 'Quizzical',
-        github: 'http://github.com/julio-henrique/quizzical',
-        demo: ''
-    },
-    {
-        id: 2,
-        image: IMG1,
-        title: 'Respondeai',
-        github: 'http://github.com/julio-henrique/respondeai',
-        demo: ''
-    },
     {
         id: 3,
         image: IMG3,
@@ -31,10 +16,17 @@ const data = [
         demo: 'https://julio-henrique-tenzies.netlify.app/'
     },
     {
+        id: 1,
+        image: IMG2,
+        title: 'Quizzical',
+        github: 'http://github.com/julio-henrique/quizzical',
+        demo: ''
+    },
+    {
         id: 4,
-        image: IMG4,
-        title: 'Desafio-02-trilha-reactjs',
-        github: 'http://github.com/julio-henrique/desafio-02-trilha-reactjs',
+        // image: IMG4,
+        title: 'Meme generator',
+        github: 'http://github.com/julio-henrique/meme-generator',
         demo: ''
     },
     {
