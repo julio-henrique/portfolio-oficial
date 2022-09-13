@@ -28,17 +28,18 @@ export const Contact = () => {
                         <BsWhatsapp className='contact__option-icon' />
                         <h4>Whats app</h4>
                         <h5>11 933785734</h5>
-                        <a href="whatsapp" target='_blank'>Enviar uma mensagem</a>
+                        <a href="https://api.whatsapp.com/send?phone=5511933785734" target='_blank'>Enviar uma mensagem</a>
                     </article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
 
-                <form action="">
+                TO BE ADDED
+                {/* <form action="">
                     <input type="text" name='name' placeholder='Nome completo' required />
                     <input type="email" name='name' placeholder='Email' required />
                     <textarea rows='7' name='message' placeholder='Mensagem' required></textarea>
                     <button className='btn btn-primary'>Enviar Mensagem</button>
-                </form>
+                </form> */}
             </div>
         </section>
     )
