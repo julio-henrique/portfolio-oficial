@@ -1,8 +1,7 @@
-import IMG1 from '../../assets/portfolio1.jpg'
+// import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/quizzical.png'
 import IMG3 from '../../assets/tenzies.png'
-// import IMG4 from '../../assets/.png'
-// import IMG5 from '../../assets/portfolio5.png'
+import IMG4 from '../../assets/meme-generator.png'
 import IMG6 from '../../assets/campo-de-batalha.png'
 
 import './styles.css'
@@ -20,18 +19,18 @@ const data = [
         image: IMG2,
         title: 'Quizzical',
         github: 'http://github.com/julio-henrique/quizzical',
-        demo: ''
+        demo: 'https://julio-henrique-quizzical.netlify.app/'
     },
     {
         id: 4,
-        // image: IMG4,
+        image: IMG4,
         title: 'Meme generator',
         github: 'http://github.com/julio-henrique/meme-generator',
-        demo: ''
+        demo: 'https://julio-henrique-meme-generator.netlify.app/'
     },
     {
         id: 5,
-        image: IMG1,
+        // image: IMG1,
         title: 'React feed',
         github: 'http://github.com/julio-henrique/react-feed',
         demo: ''
