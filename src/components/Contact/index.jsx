@@ -1,10 +1,24 @@
+import React, { useRef } from 'react'
+
 import { MdOutlineEmail } from 'react-icons/md'
 import { RiLinkedinFill } from 'react-icons/ri'
 import { BsWhatsapp } from 'react-icons/bs'
 
+import emailjs from 'emailjs-com'
+
 import './styles.css'
 
 export const Contact = () => {
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+        emailjs.sendForm('service_ta5n9fp', 'template_qisrazq', form.current, 'epO0Vp05RdCZ_q04G')
+
+        e.target.reset()
+    }
+
     return (
         <section id='contact'>
             <h5>Entre em contato</h5>
@@ -33,13 +47,12 @@ export const Contact = () => {
                 </div>
                 {/* END OF CONTACT OPTIONS */}
 
-                TO BE ADDED
-                {/* <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Nome completo' required />
-                    <input type="email" name='name' placeholder='Email' required />
+                    <input type="email" name='email' placeholder='Email' required />
                     <textarea rows='7' name='message' placeholder='Mensagem' required></textarea>
-                    <button className='btn btn-primary'>Enviar Mensagem</button>
-                </form> */}
+                    <button type='submit' className='btn btn-primary'>Enviar Mensagem</button>
+                </form>
             </div>
         </section>
     )
