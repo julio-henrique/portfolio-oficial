@@ -63,9 +63,10 @@ export const HeaderTest = () => {
                                         Amante da area de tecnologia como um todo, fluente em inglês, com muita energia para aprender programação.
                                     </p>
                                     <p>
-                                        Indico que olhe o meu portfolio e você vai se interessar em falar comigo, na parte de contato você encontra tudo o que precisa.
+                                        Indico que olhe o meu portfolio e você vai se interessar em falar comigo.
                                     </p>
-                                    <p>Aproveite este incrível site (auto elogio = true)</p>
+                                    <p>Na parte de contato você encontra tudo o que precisa.</p>
+                                    <p>Aproveite este incrível site :D (auto elogio = true)</p>
                                     <button><a href="#contact">Vamos conversar <FaArrowAltCircleRight size={25} /></a></button>
                                 </div>}
                         </TrackVisibility>
