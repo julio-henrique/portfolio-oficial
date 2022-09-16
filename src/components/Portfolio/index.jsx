@@ -1,4 +1,4 @@
-// import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/react-feed.png'
 import IMG2 from '../../assets/quizzical.png'
 import IMG3 from '../../assets/tenzies.png'
 import IMG4 from '../../assets/meme-generator.png'
@@ -30,10 +30,10 @@ const data = [
     },
     {
         id: 5,
-        // image: IMG1,
+        image: IMG1,
         title: 'React feed',
         github: 'http://github.com/julio-henrique/react-feed',
-        demo: ''
+        demo: 'https://julio-henrique-react-feed.netlify.app/'
     },
     {
         id: 6,
